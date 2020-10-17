@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Daksh</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        table {
+            border: 15px solid green;
+        }
+        
+        .red,
+        .white,
+        .yellow,
+        .green,
+        .blue,
+        .lyellow,
+        .border {
+            height: 50px;
+            width: 50px;
+            border: 1px solid;
+        }
+        
+        .red {
+            background-color: red;
+        }
+        
+        .white {
+            background-color: white;
+        }
+        
+        .yellow {
+            background-color: yellow;
+        }
+        
+        .blue {
+            background-color: blue;
+        }
+        
+        .black {
+            width: 0;
+            height: 0;
+            border-left: 79px solid blue;
+            border-top: 79px solid red;
+            border-right: 79px solid green;
+            border-bottom: 79px solid yellow;
+        }
+        
+        .green {
+            background-color: green;
+        }
+        
+        .dot,
+        .dot1,
+        .dot2,
+        .dot3 {
+            height: 20%;
+            border-radius: 90%;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        
+        .dot {
+            background-color: blue;
+        }
+        
+        .dot1 {
+            background-color: red;
+        }
+        
+        .dot2 {
+            background-color: yellow;
+        }
+        
+        .dot3 {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <table cellpadding="0" cellspacing="0" align="center">
+        <!-- First Row -->
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <!-- First Row -->
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="white"></td>
+            <td class="red"></td>
+            <td class="red"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td class="dot"></td>
+            <td></td>
+            <td class="dot"></td>
+            <td></td>
+            <td></td>
+            <td class="white"></td>
+            <td class="red"></td>
+            <td class="white"></td>
+            <td></td>
+            <td></td>
+            <td class="dot1"></td>
+            <td></td>
+            <td class="dot1"></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="white"></td>
+            <td class="red"></td>
+            <td class="white"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td class="dot"></td>
+            <td></td>
+            <td class="dot"></td>
+            <td></td>
+            <td></td>
+            <td class="white"></td>
+            <td class="red"></td>
+            <td class="white"></td>
+            <td></td>
+            <td></td>
+            <td class="dot1"></td>
+            <td></td>
+            <td class="dot1"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="white"></td>
+            <td class="red"></td>
+            <td class="white"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="white"></td>
+            <td class="blue"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td class="black" colspan="3" rowspan="3"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+        </tr>
+        <tr>
+            <td class="white"></td>
+            <td class="blue"></td>
+            <td class="blue"></td>
+            <td class="blue"></td>
+            <td class="blue"></td>
+            <td class="blue"></td>
+            <td class="green"></td>
+            <td class="green"></td>
+            <td class="green"></td>
+            <td class="green"></td>
+            <td class="green"></td>
+            <td class="white"></td>
+        </tr>
+        <tr>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td class="green"></td>
+            <td class="white"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="white"></td>
+            <td class="yellow"></td>
+            <td class="white"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="dot2"></td>
+            <td></td>
+            <td class="dot2"></td>
+            <td></td>
+            <td></td>
+            <td class="white"></td>
+            <td class="yellow"></td>
+            <td class="white"></td>
+            <td></td>
+            <td></td>
+            <td class="dot3"></td>
+            <td></td>
+            <td class="dot3"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="white"></td>
+            <td class="yellow"></td>
+            <td class="white"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            >
+            <td class="dot2"></td>
+            <td></td>
+            <td class="dot2"></td>
+            <td></td>
+            <td></td>
+            <td class="white"></td>
+            <td class="yellow"></td>
+            <td class="white"></td>
+            <td></td>
+            <td></td>
+            <td class="dot3"></td>
+            <td></td>
+            <td class="dot3"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="yellow"></td>
+            <td class="yellow"></td>
+            <td class="white"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+
+</html>
